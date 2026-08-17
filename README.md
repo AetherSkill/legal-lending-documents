@@ -49,21 +49,21 @@
 
 | 渠道 | 链接 |
 |------|------|
-| **下载 ZIP** | https://github.com/jeliael/legal-lending-documents/archive/refs/heads/main.zip |
-| 仓库首页 | https://github.com/jeliael/legal-lending-documents |
+| **下载 ZIP** | https://github.com/AetherSkill/legal-lending-documents/archive/refs/heads/main.zip |
+| 仓库首页 | https://github.com/AetherSkill/legal-lending-documents |
 
 下载后解压，将 `SKILL.md` 放入你的 skill 目录（如 opencode 的 `.opencode/skill/legal-lending-documents/` 或 Claude 的 `~/.claude/skills/`）。
 
 ### 方式二：skills.sh 生态安装
 
 ```bash
-npx skills add jeliael/legal-lending-documents
+npx skills add AetherSkill/legal-lending-documents
 ```
 
 ### 方式三：git clone
 
 ```bash
-git clone https://github.com/jeliael/legal-lending-documents.git
+git clone https://github.com/AetherSkill/legal-lending-documents.git
 ```
 
 ---
