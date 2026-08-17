@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "purpose": "LPR 数据与民间借贷利率上限速查库",
+    "source": "中国人民银行授权全国银行间同业拆借中心逐月公告 https://www.chinamoney.com.cn ；央行专栏 http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/index.html",
+    "last_verified": "2026-08-17",
+    "update_rule": "每月20日更新；生成文书时必须查询最新一期LPR（这是最容易过期的可信度字段）"
+  },
+  "current": {
+    "as_of": "unknown",
+    "lpr_1y": "3.0%",
+    "lpr_5y": "3.5%",
+    "private_lending_cap": "12.0% (3.0% x 4)",
+    "note": "来自央行官方公告自动抓取",
+    "source_url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/2026072008093186869/index.html"
+  },
+  "history": [
+    {
+      "period": "2024全年",
+      "lpr_1y": "3.1%",
+      "lpr_5y": "3.6%"
+    },
+    {
+      "period": "2025-01~04",
+      "lpr_1y": "3.1%",
+      "lpr_5y": "3.6%"
+    },
+    {
+      "period": "2025-05-20起",
+      "lpr_1y": "3.0%",
+      "lpr_5y": "3.5%"
+    },
+    {
+      "period": "verified-unknown",
+      "lpr_1y": "3.0%",
+      "lpr_5y": "3.5%"
+    }
+  ],
+  "pre_2020_rule": {
+    "note": "2020年8月20日之前成立的借贷，利息上限适用原24%/36%两线三区规则；之后适用LPR四倍。",
+    "source": "最高法2020年8月20日发布会口径"
+  }
+}
